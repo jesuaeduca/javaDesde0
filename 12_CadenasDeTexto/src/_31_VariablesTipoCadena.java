@@ -1,5 +1,5 @@
 
-public class _31_VariablesTipoCadena {
+public class _31_VariablesTipoCadena { 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
