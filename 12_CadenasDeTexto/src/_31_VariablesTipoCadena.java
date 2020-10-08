@@ -9,7 +9,7 @@ public class _31_VariablesTipoCadena {
 		
 		System.out.println(nombre);
 		System.out.println(telefono);
-		System.out.println(direccion);
+		System.out.println(direccion); 
 		
 		System.out.println("Mi nombre es "+nombre+", vivo en "+direccion+" y mi teléfono es "+telefono);
 	}
