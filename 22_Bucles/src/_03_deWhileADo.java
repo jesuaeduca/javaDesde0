@@ -9,6 +9,7 @@ public class _03_deWhileADo {
 		    if (x%4 == 0) System.out.print(" es múltiplo de cuatro");
 		    System.out.println();
 		}
+		
 		/*
 		x = 1;
 		do {
