@@ -21,8 +21,14 @@ public class _4_DiasMes {
 			case 2:
 				System.out.println("Ese mes tiene 28 dias, si no es bisiesto");
 				break;
-			default:
+			case 4:
+			case 6: 
+			case 9:
+			case 11:				
 				System.out.println("Ese mes tiene 30 dias");
+				break;
+			default:
+				System.out.println("Número incorrecto");
 		}
 				
 	}
