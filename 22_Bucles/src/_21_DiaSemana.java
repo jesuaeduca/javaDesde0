@@ -6,6 +6,7 @@ public class _21_DiaSemana {
 		// TODO Auto-generated method stub
 		Scanner entrada=new Scanner(System.in);
 		int dia=0,mes=0,anyo=0;
+		// Leo el dia, el mes y el año. Puedo hacer todas las comprobaciones necesarias
 		System.out.print("Introduce el día: ");
 		if (entrada.hasNextInt()) {
 			dia=entrada.nextInt();
@@ -35,7 +36,9 @@ public class _21_DiaSemana {
 			System.exit(0);
 		}
 		entrada.close();
+		// Defino las variables de la formula 
 		int a,b,c,d,e,f,g,h,i;
+		// Sigo los cálculos de la formula
 		a=(14-mes)/12;
 		b=anyo-a;
 		c=(mes+(12*a))-2;
@@ -45,6 +48,7 @@ public class _21_DiaSemana {
 		g=(31*c)/12;
 		h=dia+b+d-e+f+g;
 		i=h%7;
+		// Ahora sólo tengo mostrar un mensaje dependiendo del valor de la variable i
 		switch (i) {
 		case 0:
 			System.out.println("Domingo");

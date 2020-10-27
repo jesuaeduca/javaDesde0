@@ -12,7 +12,7 @@ public class _13_Fibonacci {
 	public static void main(String[] args) {
 		// Leemos cúantos números de la serie queremos mostrar
 		int numerosFib=Integer.parseInt(JOptionPane.showInputDialog("¿Cuántos terminados de Fibonacci quieres mostrar?"));
-		// Inicializamos 2 variables a los dos primeros números de la serir
+		// Inicializamos 2 variables a los dos primeros números de la serie
 		int f1=0;
 		int f2=1;
 		// Bucle para mostrar la cantidad de números solicitada
