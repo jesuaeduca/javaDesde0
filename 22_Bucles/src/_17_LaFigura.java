@@ -43,7 +43,8 @@ public class _17_LaFigura {
 		// Bucle para el número de líneas
 		// i es el número de líneas
 		for (int i=0;i<=base;i++) {
-			// j es el número de caracteres para esa línea
+			// j es el número de caracteres para esa línea, y tenemos que pintar hasta llegar al mismo número que i, 
+			// en la línea 1, se pinta 1, en la línea 2 se pintan 2, ...
 			for (int j=0;j<i;j++) {
 				System.out.print(caracter);
 			}
