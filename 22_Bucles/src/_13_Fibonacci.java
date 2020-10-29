@@ -15,8 +15,14 @@ public class _13_Fibonacci {
 		// Inicializamos 2 variables a los dos primeros números de la serie
 		int f1=0;
 		int f2=1;
+		int suma;
 		// Bucle para mostrar la cantidad de números solicitada
 		for (int i=1;i<=numerosFib;i++) {
+			System.out.print(f1+" ");
+			suma=f1+f2;
+			f1=f2;
+			f2=suma;
+			/*
 			// Comprobación de si es el primer número
 			if (i==1)
 				// Mostramos el primer número
@@ -33,6 +39,7 @@ public class _13_Fibonacci {
 				f1=f2;
 				f2=suma;
 			}
+			*/
 		}
 	}
 
