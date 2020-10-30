@@ -3,24 +3,24 @@ import java.util.Scanner;
 public class Pruebas {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner entrada = new Scanner (System.in);
-		
-	int numero=0, divisible;
-	System.out.println("Introduce un numero");
-	numero = entrada.nextInt();
-		for(divisible=numero-1;divisible>=1;divisible--) {
-			if(numero%divisible==0) {
-				if(divisible!=1) {
-					System.out.println("El numero no es primo");
-				}
-				else System.out.println("El numero es primo");
-				break;
-			}
-			
-		}
-		entrada.close();
-	
+		Scanner input = new Scanner(System.in);
+        System.out.print("Introduzca numero de filas: ");
+        int num = input.nextInt();
+        System.out.print("Introduzca el caracter: ");
+        String cara = input.next();
+         
+        int cont = 0;
+                 
+        for(int i=0; i<(num+1); i++ ){
+        	
+        	for(int x=1;x<=cont;x++){
+                System.out.print(cara);
+            }
+        	cont++;
+            System.out.println();
+        }
+        
+        input.close();
 	}
 
 }
